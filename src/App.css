@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Inknut-Antiqua;
+  src: url(./assets/InknutAntiqua-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inria-Serif;
+  src: url(./assets/InriaSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inria-Serif;
+  src: url(./assets/InriaSerif-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+:root {
+  --dark-green: #024B00;
+  --green: #036700;
+  --dark-yellow: #4B3B00;
+  --yellow: #927300
+}
+
