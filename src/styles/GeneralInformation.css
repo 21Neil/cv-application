@@ -1,0 +1,31 @@
+.general-info {
+  background: #000000;
+  padding: 4em 0;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.general-info input {
+  border-color: #fff;
+  color: #fff;
+}
+
+.general-info__name,
+.general-info__name-input {
+  font-size: 2.25rem;
+  font-family: Inknut-Antiqua;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+.general-info__row {
+  display: flex;
+  gap: 0.75em;
+  align-items: center;
+  margin-bottom: 0.625em;
+}
+
+.general-info__row p {
+  margin: 0;
+}

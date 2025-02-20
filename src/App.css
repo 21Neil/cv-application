@@ -1,28 +1,62 @@
 @font-face {
   font-family: Inknut-Antiqua;
-  src: url(./assets/InknutAntiqua-Regular.ttf);
+  src: url(./assets/font/InknutAntiqua-Regular.ttf);
 }
 
 @font-face {
   font-family: Inria-Serif;
-  src: url(./assets/InriaSerif-Regular.ttf);
+  src: url(./assets/font/InriaSerif-Regular.ttf);
 }
 
 @font-face {
   font-family: Inria-Serif;
-  src: url(./assets/InriaSerif-Bold.ttf);
+  src: url(./assets/font/InriaSerif-Bold.ttf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: Inter;
-  src: url(./assets/Inter-VariableFont_opsz\,wght.ttf);
+  src: url(./assets/font/Inter.ttf);
 }
 
 :root {
   --dark-green: #024B00;
   --green: #036700;
   --dark-yellow: #4B3B00;
-  --yellow: #927300
+  --yellow: #927300;
 }
 
+body {
+  font-family: Inter;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: none;
+  padding: 0.15em;
+}
+
+button {
+  color: white;
+  width: 5.25em;
+  height: 2.25em;
+  border: none;
+  border-radius: 0.3125em;
+}
+
+.btn--edit {
+  background-color: var(--dark-green);
+}
+
+.btn--edit:hover {
+  background-color: var(--green);
+}
+
+.btn--submit {
+  background-color: var(--dark-yellow);
+}
+
+.btn--submit:hover {
+  background-color: var(--yellow);
+}
