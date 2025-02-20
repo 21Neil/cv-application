@@ -6,6 +6,10 @@
   color: #fff;
 }
 
+.general-info h1 {
+  font-weight: 400;
+}
+
 .general-info input {
   border-color: #fff;
   color: #fff;

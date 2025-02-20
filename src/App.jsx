@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import GeneralInformation from "./components/GeneralInformation";
+import Education from "./components/Education";
 
 function App() {
   const [edit, setEdit] = useState(true);
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <GeneralInformation {...{ edit }} />
+      <Education {...{edit}} />
       <div className='btn-container'>
         <div className='container'>
           {edit ? (

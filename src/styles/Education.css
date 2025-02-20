@@ -1,0 +1,39 @@
+.edu {
+  padding: 2em;
+}
+
+.edu__title {
+  display: flex;
+  gap: 5px;
+}
+
+.edu__title h2 {
+  font-family: Inria-Serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.edu__content {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.edu__content input,
+.edu__content p {
+  font-size: 0.875em;
+}
+
+.edu__content .edu__content-school-input,
+.edu__content .edu__content-school {
+  font-family: Inria-Serif;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+.edu__content-date-container {
+  display: flex;
+  align-items: center;
+  gap: 0.1em;
+}
+

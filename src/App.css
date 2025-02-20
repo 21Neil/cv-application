@@ -37,6 +37,11 @@ input {
   padding: 0.15em;
 }
 
+input:focus {
+  outline: none;
+  border-bottom-width: 2px;
+}
+
 button {
   color: white;
   width: 5.25em;
