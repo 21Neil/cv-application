@@ -1,0 +1,54 @@
+.work-exp__content {
+  display: flex;
+  padding: 1em 0;
+  gap: 1em;
+  white-space: pre-wrap;      /* Webkit */    
+   white-space: -moz-pre-wrap; /* Firefox */     
+   white-space: -pre-wrap;     /* Opera <7 */    
+   white-space: -o-pre-wrap;   /* Opera 7 */     
+   word-wrap: break-word;
+}
+
+.work-exp_content_divider {
+  width: 2px;
+  background: #000;
+}
+
+.work-exp__content-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-exp__content-company {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  width: 100%;
+}
+
+.work-exp__content-company-job-input,
+.work-exp__content-company-job {
+  margin-bottom: 0.5em;
+}
+
+.work-exp__control {
+  width: 100%;
+}
+
+.plus-btn {
+  padding: 0.5em 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-btn:hover {
+  background-color: #d5d5d5;
+}
+
+.trash-btn {
+  padding: 0;
+  align-self: center;
+}

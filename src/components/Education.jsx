@@ -11,16 +11,16 @@ const Education = ({ edit }) => {
     end: "",
   });
   return (
-    <section className='edu'>
+    <section className='edu content__sect'>
       <div className='container'>
-        <div className='edu__title'>
+        <div className='edu__title title'>
           <img src={bookIcon} alt='book' />
           <h2>Education</h2>
         </div>
         <div className='edu__content'>
           {edit ? (
             <Input
-              className='edu__content-school-input'
+              className='edu__content-school-input h3-input'
               type='text'
               value={eduField.school}
               onChange={(e) =>

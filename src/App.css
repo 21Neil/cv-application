@@ -50,6 +50,24 @@ button {
   border-radius: 0.3125em;
 }
 
+textarea {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: none;
+  padding: 0.15em;
+  resize: vertical;
+  overflow: hidden;
+}
+
+textarea:focus {
+  outline: none;
+  border-bottom-width: 2px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .btn--edit {
   background-color: var(--dark-green);
 }
@@ -64,4 +82,26 @@ button {
 
 .btn--submit:hover {
   background-color: var(--yellow);
+}
+
+.content__sect {
+  padding: 2em 2em 0 2em;
+}
+
+.content__sect .title {
+  display: flex;
+  gap: 5px;
+}
+
+.content__sect .title h2 {
+  font-family: Inria-Serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.content__sect .h3-input,
+.content__sect h3 {
+  font-family: Inria-Serif;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
