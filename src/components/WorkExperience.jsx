@@ -117,23 +117,21 @@ const WorkExperience = ({ edit }) => {
 
   return (
     <section className='work-exp content__sect'>
-      <div className='container'>
-        <div className='work-exp__title title'>
-          <img src={briefcaseIcon} alt='briefcase' />
-          <h2>Work Experience</h2>
-        </div>
-        {contentNum.map((i) => (
-          <WorkExpContent
-            key={i}
-            dataKey={i}
-            {...{ edit, handleDeleteOnClick }}
-          />
-        ))}
-        <div className='work-exp__control'>
-          <button className='plus-btn' onClick={handlePlusOnClick}>
-            <img src={plusIcon} alt='plus' />
-          </button>
-        </div>
+      <div className='work-exp__title title'>
+        <img src={briefcaseIcon} alt='briefcase' />
+        <h2>Work Experience</h2>
+      </div>
+      {contentNum.map((i) => (
+        <WorkExpContent
+          key={i}
+          dataKey={i}
+          {...{ edit, handleDeleteOnClick }}
+        />
+      ))}
+      <div className='work-exp__control'>
+        <button className='plus-btn' onClick={handlePlusOnClick}>
+          <img src={plusIcon} alt='plus' />
+        </button>
       </div>
     </section>
   );

@@ -13,7 +13,7 @@ const GeneralInformation = ({ edit }) => {
 
   return (
     <section className='general-info'>
-      <div className='container'>
+      <div className='general-info-container'>
         {edit ? (
           <Input
             className='general-info__name-input'

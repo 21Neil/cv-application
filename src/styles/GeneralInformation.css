@@ -33,3 +33,16 @@
 .general-info__row p {
   margin: 0;
 }
+
+
+@media (min-width: 768px) {
+  .general-info {
+    display: flex;
+    justify-content: center;
+    padding: 4em 109px;
+  }
+  .general-info-container {
+    max-width: 800px;
+    width: 100%;
+  }
+}
