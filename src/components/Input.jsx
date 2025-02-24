@@ -23,7 +23,7 @@ const Input = ({
     
     const textWidth = ctx.measureText(value).width;
     
-    if(textWidth >= element.parentElement.clientWidth - 5) return;
+    if(textWidth >= element.parentElement.clientWidth - 5 && type === 'textarea') return;
     
     element.style.width = textWidth + "px";
   };

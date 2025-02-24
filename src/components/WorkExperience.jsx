@@ -94,12 +94,16 @@ const WorkExpContent = ({ edit, dataKey, handleDeleteOnClick }) => {
           <p className='work-exp__content-company-desc'>{workExpField.desc}</p>
         )}
       </div>
-      <button
-        className='trash-btn'
-        onClick={() => handleDeleteOnClick(dataKey)}
-      >
-        <img src={trashIcon} alt='delete' />
-      </button>
+      {edit ? (
+        <button
+          className='trash-btn'
+          onClick={() => handleDeleteOnClick(dataKey)}
+        >
+          <img src={trashIcon} alt='delete' />
+        </button>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };
