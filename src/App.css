@@ -105,3 +105,14 @@ button:hover {
   font-weight: bold;
   font-size: 1.125rem;
 }
+
+.btn-container {
+  padding-top: 1em;
+  padding-right: 2em;
+}
+
+.btn-container button {
+  margin-right: 0;
+  margin-left: auto;
+  display: block;
+}
